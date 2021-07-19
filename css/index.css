@@ -99,26 +99,29 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   margin-left: 13%;
   margin-top: 20px;
 }
-.button_section button{
+.button_section .home_button{
   border: none;
   font-size: 16px;
   padding: 5px 14px;
+  text-decoration: none;
+  color:
 }
-.button_section button:first-child{
+.button_section .home_button:first-child{
   color: var(--custom-lightBlue);
   background-color: var(--custom-black);
   margin-right: 10px;
 }
-.button_section button:last-child{
+.button_section .home_button:last-child{
   background-color: var(--custom-lightBlue);
+  color: var(--custom-white);
 }
 
-.button_section button:first-child:hover{
+.button_section .home_button:first-child:hover{
   color: var(--custom-black);
   background-color: var(--custom-white);
   /* border: 1px solid var(--custom-black); */
 }
-.button_section button:last-child:hover{
+.button_section .home_button:last-child:hover{
   color: var(--custom-lightBlue);
   background-color: var(--custom-black);
   /* border: 1px solid var(--custom-white); */
@@ -134,13 +137,16 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   background-color: var(--custom-lightBlue);
   height: inherit;
 }
-.right_nav a:first-child svg{
+/* .right_nav a:first-child img{
   margin-top: 10px;
-}
+} */
 .right_nav nav{
   display: grid;
-  margin-top: 50vh;
+  margin-top: 45vh;
 }
-.right_nav nav a svg{
-  margin: 10px 0;
+
+a img{
+  width: 1.5em;
+  height: 1.5em;
+  margin: 5px 0;
 }
