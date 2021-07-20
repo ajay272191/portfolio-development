@@ -2,7 +2,7 @@
   --custom-blue : #4abee4;
   --custom-white : #ffffff;
   /* --custom-white : #4a839e; */
-  --custom-black : #000000;
+  --custom-black : #000000c7;
   --custom-lightBlue : #add8e6;
 }
 body{
@@ -34,7 +34,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   text-align: center;
   display: flex;
 }
-.right_nav .ajays_name, .left_nav p{
+
+
+
+.right_nav .ajays_name, .left_nav p a{
+  text-decoration: none;
   top: 25vh;
   position: fixed;
   color: var(--custom-black);
@@ -54,6 +58,13 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   align-items: center;
   display: flex;
 }
+
+.navbar_text{
+  font-size: large;
+  position: relative;
+  font-weight: 600;
+}
+
 .left_nav nav{
   background-color: var(--custom-lightBlue);
   display: grid;
@@ -78,8 +89,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   z-index: 10;
 }
 
-.name h1{
+h1, a,p{
   font-family: sans-serif;
+}
+.name h1{
+  /* font-family: sans-serif; */
   font-size: 100px;
   margin: 0;
   color: var(--custom-blue);
@@ -92,7 +106,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   margin-left: 13%;
 }
 #writing_text{
-  color: var(--custom-blue);
+  color: #058798;
   margin-left: 13%;
 }
 .button_section{
@@ -102,27 +116,28 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
 .button_section .home_button{
   border: none;
   font-size: 16px;
-  padding: 5px 14px;
   text-decoration: none;
-  color:
+  border-radius: 2px;
 }
 .button_section .home_button:first-child{
-  color: var(--custom-lightBlue);
+  color: var(--custom-white);
   background-color: var(--custom-black);
   margin-right: 10px;
+  padding: 5px 14px;
 }
 .button_section .home_button:last-child{
-  background-color: var(--custom-lightBlue);
+  background-color: var(--custom-blue);
   color: var(--custom-white);
+  padding: 5px 25px;
 }
 
 .button_section .home_button:first-child:hover{
-  color: var(--custom-black);
-  background-color: var(--custom-white);
+  /* color: var(--custom-black); */
+  background-color: var(--custom-blue);
   /* border: 1px solid var(--custom-black); */
 }
 .button_section .home_button:last-child:hover{
-  color: var(--custom-lightBlue);
+  /* color: var(--custom-white); */
   background-color: var(--custom-black);
   /* border: 1px solid var(--custom-white); */
 }

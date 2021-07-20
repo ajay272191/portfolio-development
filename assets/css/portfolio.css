@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* info section */
+.about_ajay{
+  padding-top: 50px;
+  width: 55%;
+  margin-left: 50px;
+}
+.about_ajay p{
+  line-height: 1.2;
+}
+.about-ajay p:first-child{
+  margin-bottom: 5px;
+}
+.img_section img {
+  bottom: 0px;
+  right: -100px;
+  width: 50%;
+  height: 100vh;
+}
+/* project section */
+.work_info h3{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.projects, .blogs{
+  display: flex;
+  width: 60%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.blog{
+  margin-right: 10px;
+}
+.project p, .blog p{
+  display: none;
+}
+.project img, .blog img{
+  width: 50%;
+}
+.project p, .blog p{
+
+}
+.work_info h5{
+  /* direction: rtl; */
+  margin-left: 50px;
+  margin-top: 5px;
+}
