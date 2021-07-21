@@ -8,49 +8,39 @@ body{
   font-family: sans-serif;
 }
 
-/* info section */
-.about_ajay{
-  padding-top: 50px;
-  width: 55%;
-  margin-left: 50px;
+/* project section */
+.work_info{
+  padding-left: 30px;
 }
-.about_ajay p{
-  line-height: 1.2;
+.work_info h2{
+  margin-left: 15px;
+  margin-top: 25px;
+  margin: 25px 0 10px 15px;
 }
-.about-ajay p:first-child{
-  margin-bottom: 5px;
+.projects, .blogs{
+  width: 70%;
+  display: flex;
+}
+.description{
+  width: 32%;
+  margin-right: 1%;
+  padding: 0 15px;
+}
+.description img{
+  width: 100%;
+}
+.description h4{
+    margin: 5px 0;
+}
+.work_info h5 a{
+  text-decoration: none;
+  font-size: small;
+  color: #03a9f4;
+  padding-left: 15px;
 }
 .img_section img {
   bottom: 0px;
   right: -100px;
   width: 50%;
   height: 100vh;
-}
-/* project section */
-.work_info h3{
-  margin-left: 50px;
-  margin-top: 20px;
-}
-.projects, .blogs{
-  display: flex;
-  width: 60%;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-.blog{
-  margin-right: 10px;
-}
-.project p, .blog p{
-  display: none;
-}
-.project img, .blog img{
-  width: 50%;
-}
-.project p, .blog p{
-
-}
-.work_info h5{
-  /* direction: rtl; */
-  margin-left: 50px;
-  margin-top: 5px;
 }
