@@ -44,50 +44,53 @@
           <h2>Projects</h2
           <!-- project section -->
           <div class="projects">
-            <div class="description">
+            <div class="description popup_page">
                 <img src="./assets/img/projects/fake_quiz_app.png" alt="Fake Quiz App">
-              <div class="desc">
+              <!-- <div class="desc"> -->
                 <h4>Fake quiz app</h4>
-              </div>
+              <!-- </div> -->
             </div>
-            <div class="description">
+            <div class="description popup_page">
               <img src="./assets/img/projects/up_and_away.png" alt="Up And Away">
-              <div class="">
-                <h4>Travelling landing page</h4>
-              </div>
+              <a href="./travel/index.html"> <h4>Travelling landing page</h4> </a>
+              <!-- <p>Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
+                 Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
+                 Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
+              </p> -->
             </div>
-            <div class="description">
-              <img src="assets/img/projects/portfolio_2.png" alt="">
-              <div class="">
+            <div class="description popup_page">
+              <img src="assets/img/projects/portfolio_2.png" alt="Portfolio">
                 <h4>Developer Portfolio Project</h4>
-              </div>
             </div>
           </div>
-          <h5> <a href="./projects.html">Show all Projects</a> </h5>
+          <div class="projects project_page2">
+            <div class="description popup_page">
+              <img src="assets/img/projects/portfolio_1.png" alt="Portfolio">
+                <h4>Developer Portfolio Project</h4>
+            </div>
+          </div>
+
+          <h5 id="more_projects" onClick="show_projects(this.id)" >Show all Projects</h5>
+          <h5 id="hide_projects" onClick="hide_projects(this.id)" >Show less Projects</h5>
 
           <!-- blog section -->
           <h2>Blogs</h2>
           <div class="blogs">
-            <div class="description">
+            <div class="description popup_page">
               <img src="./assets/img/blogs/blog.png" alt="">
-              <div class="">
-                <h4>Coming soon ...</h4>
-              </div>
+              <h4>Coming soon ...</h4>
             </div>
-            <div class="description">
+            <div class="description popup_page">
               <img src="./assets/img/blogs/block_scope_javascript.png" alt="Block Scope">
-              <div class="">
-                  <h4>Block Scope in JavaScript</h4>
-              </div>
-              </div>
-            <div class="description">
+              <h4>Block Scope in JavaScript</h4>
+            </div>
+            <div class="description popup_page">
               <img src="./assets/img/blogs/blog.png" alt="">
-              <div class="">
-                <h4>Comminng soon ....</h4>
-              </div>
+              <h4>Comminng soon ....</h4>
             </div>
           </div>
-          <h5> <a href="./blogs.html">Show all Blogs</a> </h5>
+          <h5 id="show_blogs" onClick="show_blogs(this.id)"> Show more blogs</h5>
+          <h5 id="hide_blogs" onClick="hide_blogs(this.id)" >Show less Projects</h5>
         </div>
         <div class="img_section">
           <!-- ajay's image -->
@@ -142,5 +145,6 @@
     </footer> -->
     <script src="./assets/js/typed.js/dist/typed.min.js" charset="utf-8"></script>
     <script src="./assets/js/index.js" charset="utf-8"></script>
+    <script src="./assets/js/portfolio.js" charset="utf-8"></script>
   </body>
 </html>

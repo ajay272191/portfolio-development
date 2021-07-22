@@ -1,0 +1,31 @@
+
+.showcase .showcase-text{
+  padding: 2em;
+  text-align: justify;
+}
+.mb-auto, .my-auto{
+  margin: 0 !important;
+}
+.lead{
+  font-size: 1rem;
+}
+
+.showcase .showcase-img {
+    min-height: auto;
+    background-size: cover;
+}
+
+.home_page{
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  z-index: 100;
+  background-color: green;
+  padding: 2px 10px;
+  mix-blend-mode: luminosity;
+  border-radius: 5px;
+}
+.home_page a{
+  text-decoration: none;
+  color: #ffffff;
+}
