@@ -2,14 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ajay's Portfolio</title>
+    <title>Softdev Ajay</title>
     <link rel="icon" href="./assets/img/icons/ajay_img.svg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="./assets/css/portfolio.css">
   </head>
   <body>
+    <div class="main">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </div>
     <section id="content_section">
       <div class="left_nav">
+        <!-- <p>Webdev_ajay</p> -->
         <p class="navbar_text">
           <a href="/" title="Home Page">HOME</a>
           <a href="portfolio.html" class="Ajay's Portfolio">PORTFOLIO</a>
@@ -43,64 +48,42 @@
         </nav>
       </div>
       <div class="main_content">
-        <div class="work_info">
-          <h2>Projects</h2
-          <!-- project section -->
-          <div class="projects">
-            <div class="description popup_page">
-                <img src="./assets/img/projects/fake_quiz_app.png" alt="Fake Quiz App">
-              <!-- <div class="desc"> -->
-                <h4>Fake quiz app</h4>
-              <!-- </div> -->
+        <div class="about_infp">
+          <div class="about_ajay">
+            <div class="ajays_desc">
+              <p>Ajay Kumar, is a Web Developer, having experience in several companies as an intern. Where he had worked on many technologies such as JavaScript, Jquery, Python, Node.js, etc.</p>
+              <p>He carried out developing custom web pages, fixing bugs, developing landing pages from scratch, Building simple APIs, clean code, bringing standardization.</p>
             </div>
-            <div class="description popup_page">
-              <img src="./assets/img/projects/up_and_away.png" alt="Up And Away">
-              <a href="./travel/index.html" target="_blank"> <h4>Travelling landing page</h4> </a>
-              <!-- <p>Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
-                 Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
-                 Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page Travelling landing page
-              </p> -->
-            </div>
-            <div class="description popup_page">
-              <img src="assets/img/projects/portfolio_2.png" alt="Portfolio">
-                <a href="https://ajaykrportfolio.now.sh/" target="_blank"> <h4>Developer Portfolio Project</h4> </a>
+            <!-- <div class="experience">
+              <div class="">
+                <h5>Web developer intern: June 2020 – Oct 2020 <span> <a href="#">Dark Square</a>India</span> </h5>
+                <ul>
+                  <li>Fixed bugs of existing web pages that enhanced and improved web functionality.</li>
+                  <li>Planned site design, functionality and navigation along with data capture points.</li>
+                  <li>Developed dashboard which have features like file operations, user management etc.</li>
+                  <li>Integration and feed generation of social media such as Twitter and Instagram.</li>
+                  <li>Processed user data to back-end.</li>
+                  <li>Developed and deployed web pages, APIs and databases.</li>
+                </ul>
+              </div>
+            </div> -->
+            <!-- <div class="contact_form">
+              <form>
+                <h4>Write a message to me</h4>
+                <input type="text" class="name" required="" placeholder="Name">
+                <input type="email" class="email" required="" placeholder="Email">
+                <textarea class="message" rows="9" placeholder="write message here"></textarea>
+                <button type="submit" id="sbutton">submit</button>
+              </form>
+            </div> -->
+            <div class="address">
+              <a href="mailto:ajayrmavs33236@example.com?subject=FromWebContactPage">Email me</a>
+              <p> Siddharth Naagr, Lucknow, India </p>
             </div>
           </div>
-          <div class="projects project_page2">
-            <div class="description popup_page">
-              <img src="assets/img/projects/portfolio_1.png" alt="Portfolio">
-                <h4>Developer Portfolio Project</h4>
-            </div>
-          </div>
+          <div class="contact">
 
-          <h5 id="more_projects" onClick="show_projects(this.id)" >Show all Projects</h5>
-          <h5 id="hide_projects" onClick="hide_projects(this.id)" >Show less Projects</h5>
-
-          <!-- blog section -->
-          <h2>Blogs</h2>
-          <div class="blogs">
-            <div class="description popup_page">
-              <img src="./assets/img/blogs/blog.png" alt="">
-              <h4>Coming soon ...</h4>
-            </div>
-            <div class="description popup_page">
-              <img src="./assets/img/blogs/block_scope_javascript.png" alt="Block Scope">
-              <a href="https://ajayk.live/block-scope-in-javascript" target="_blank"> <h4>Block Scope in JavaScript</h4> </a>
-            </div>
-            <div class="description popup_page">
-              <img src="./assets/img/blogs/blog.png" alt="">
-              <h4>Comminng soon ....</h4>
-            </div>
           </div>
-          <h5 id="show_blogs" onClick="show_blogs(this.id)"> Show more blogs</h5>
-          <h5 id="hide_blogs" onClick="hide_blogs(this.id)" >Show less blogs</h5>
-          <button type="button" name="button" onclick="show_form()">Request a Project</button>
-          <iframe id="request_form" src="https://docs.google.com/forms/d/e/1FAIpQLSf_0QPKWbpCh_sFjAsvt4z87Y1jmbwUMLiBvlaxP5j63denaA/viewform?embedded=true"
-          frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-        <div class="img_section">
-          <!-- ajay's image -->
-          <img src="./assets/img/icons/man_with_laptop.webp" alt="Softdev image">
         </div>
       </div>
       <div class="right_nav">
@@ -132,7 +115,7 @@
           <a href="https://www.upwork.com/freelancers/~013cf9768abeef2e22" title="Upwork" target="_blank">
             <img src="./assets/img/icons/upwork.svg" alt="Upwork">
           </a>
-          <!-- hackerrank -->
+          <!-- hacker rank -->
           <a href="https://www.hackerrank.com/ajayr272191" title="Hackerrank" target="_blank">
             <img src="./assets/img/icons/hackerrank.svg" alt="Hackerrank">
           </a>
@@ -151,6 +134,5 @@
     </footer> -->
     <script src="./assets/js/typed.js/dist/typed.min.js" charset="utf-8"></script>
     <script src="./assets/js/index.js" charset="utf-8"></script>
-    <script src="./assets/js/portfolio.js" charset="utf-8"></script>
   </body>
 </html>

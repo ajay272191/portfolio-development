@@ -12,8 +12,10 @@ function hide_projects(id) {
   document.getElementsByClassName("project_page2")[0].style.display = "none";
 }
 
-function show_blogs() {
-
+function show_form() {
+  document.getElementById("request_form").style.display = "initial";
+  document.getElementsByClassName("img_section")[0].style.display = "none";
+  // console.log("hello");
 }
 
 
