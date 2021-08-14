@@ -4,7 +4,7 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing_text", {
 			strings:[
-				"  I am a Freelance Developer from Lucknow, India.   ", "Please let me know if you have anythin ask, assign or share.               "
+				"I'm a Freelance Developer from Lucknow, India.   ", "Please let me know if you have anything to ask, assign.  "
 				// "  I am a Freelance Developer from Lucknow, India.   ", "passionate about coding and love building things.   ", "worked on many technologies such as JavaScript, Python, HTML... ", "Please let me know if you have anythin ask, assign or share.               "
 			],
 			stringsElement: null,

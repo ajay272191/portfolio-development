@@ -228,3 +228,83 @@ a img{
 .right_nav a:first-child img{
   margin-top: 20px;
 }
+
+
+/* responsive  section */
+@media (max-width: 500px) {
+  /* body {
+    background-color: red;
+  } */
+  .info_section .name h1{
+    margin-left: 20px;
+    font-size: 50px;
+  }
+  .info_section .name h1:first-child{
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .info_section .name h1:last-child{
+    /* margin-left: 7; */
+  }
+  .left_nav  .navbar_text{
+    display: flex;
+    width: 99vw;
+    top: 0px;
+    margin-top: 25px;
+    display: flex;
+    left: 12%;
+  }
+  .left_nav p a{
+    writing-mode: inherit;
+    left: 0px;
+    padding: 0 10px;
+  }
+  .info_section .description{
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  #writing_text{
+    margin: 10px;
+    font-size: 15px;
+
+    /* margin-left: 10%; */
+  }
+  .info_section .button_section .home_button{
+    padding: 10px 15px;
+  }
+  .button_section{
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  .img_section img{
+    position: absolute;
+    width: 80%;
+    right: 0px;
+  }
+  .left_nav .navbar_text{
+    display: flex;
+    justify-content: center;
+    left: 5%;
+  }
+  .left_nav{
+    width: 15%;
+  }
+  .left_nav nav{
+    /* bottom: 160px; */
+    width: 12%;
+  }
+  .right_nav nav{
+    width: inherit;
+  }
+  .right_nav .ajays_name{
+    width: inherit;
+  }
+  .right_nav{
+    position: absolute;
+    width: 10%;
+    display: none;
+  }
+  .work_info{
+    padding-bottom: 25px;
+  }
+}

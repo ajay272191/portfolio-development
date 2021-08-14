@@ -87,3 +87,39 @@ box-sizing: border-box;
   height: 94vh;
   display: none;
 }
+
+/* responsive  section */
+@media (max-width: 500px) {
+
+  body{
+    /* background-color: pink; */
+    overflow-y: scroll;
+  }
+  .projects{
+    display: block;
+  }
+  .description{
+    width: 100%;
+  }
+
+  .main_content{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 5%;
+  }
+  .projects, .blogs {
+    width: 75%;
+    display: block;
+  }
+  .img_section img{
+    bottom: 0px;
+    right: -50%;
+    width: 100%;
+    top: 5vh;
+    height: 95vh;
+    display: none;
+  }
+  .work_info h2{
+    color: var(--custom-blue);
+  }
+}
