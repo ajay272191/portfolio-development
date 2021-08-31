@@ -231,10 +231,10 @@ a img{
 
 
 /* responsive  section */
-@media (max-width: 500px) {
-  /* body {
-    background-color: red;
-  } */
+@media (max-width: 600px) {
+  body {
+    /* background-color: red; */
+  }
   .info_section .name h1{
     margin-left: 20px;
     font-size: 50px;

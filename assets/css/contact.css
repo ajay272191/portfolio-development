@@ -86,4 +86,8 @@
   .main_content .query_section .quiry_info{
     width: 100%;
   }
+  .whatsapp_chat_widget{
+    position: inherit;
+  }
+
 }

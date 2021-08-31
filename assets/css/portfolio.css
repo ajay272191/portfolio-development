@@ -3,6 +3,9 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
+body{
+  overflow-y: hidden;
+}
 /* project section */
 .work_info{
   padding-left: 30px;
@@ -89,10 +92,10 @@ box-sizing: border-box;
 }
 
 /* responsive  section */
-@media (max-width: 500px) {
+
+@media (max-width: 600px) {
 
   body{
-    /* background-color: pink; */
     overflow-y: scroll;
   }
   .projects{
@@ -108,18 +111,74 @@ box-sizing: border-box;
     margin-left: 5%;
   }
   .projects, .blogs {
-    width: 75%;
+    width: 85%;
     display: block;
   }
   .img_section img{
-    bottom: 0px;
-    right: -50%;
-    width: 100%;
-    top: 5vh;
-    height: 95vh;
     display: none;
   }
   .work_info h2{
     color: var(--custom-blue);
+  }
+  .left_nav  .navbar_text{
+    display: flex;
+    width: 99vw;
+    top: 0px;
+    margin-top: 25px;
+    display: flex;
+    left: 12%;
+  }
+  .left_nav p a{
+    writing-mode: inherit;
+    left: 0px;
+    padding: 0 10px;
+  }
+  .info_section .description{
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  #writing_text{
+    margin: 10px;
+    font-size: 15px;
+
+    /* margin-left: 10%; */
+  }
+  .info_section .button_section .home_button{
+    padding: 10px 15px;
+  }
+  .button_section{
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  .img_section img{
+    position: absolute;
+    width: 80%;
+    right: 0px;
+  }
+  .left_nav .navbar_text{
+    display: flex;
+    justify-content: center;
+    left: 5%;
+  }
+  .left_nav{
+    width: 15%;
+  }
+  .left_nav nav{
+    /* bottom: 160px; */
+    width: 12%;
+  }
+  .right_nav nav{
+    width: inherit;
+  }
+  .right_nav .ajays_name{
+    width: inherit;
+  }
+  .right_nav{
+    position: absolute;
+    width: 10%;
+    display: none;
+  }
+  .work_info{
+    padding-bottom: 25px;
   }
 }

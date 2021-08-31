@@ -17,9 +17,9 @@
         </p>
         <nav>
           <!-- Github_link -->
-          <a href="https://github.com/ajay272191" title="Github">
+          <!-- <a href="https://github.com/ajay272191" title="Github">
             <img src="./assets/img/icons/github.svg" alt="Github Link">
-          </a>
+          </a> -->
           <!-- LinkedIn -->
           <a href="https://www.linkedin.com/in/ajay272191/" title="LinkedIn" target="_blank">
             <img src="./assets/img/icons/linkedin.svg" alt="LinkedIn">
@@ -29,9 +29,9 @@
             <img src="./assets/img/icons/instagram.svg" alt="Instagram">
           </a>
           <!-- stackover flow -->
-          <a href="https://stackoverflow.com/users/7845659/ajay-kumar" title="Stackoverflow" target="_blank">
+          <!-- <a href="https://stackoverflow.com/users/7845659/ajay-kumar" title="Stackoverflow" target="_blank">
             <img src="./assets/img/icons/stack_overflow.svg" alt="stackoverflow">
-          </a>
+          </a> -->
           <!-- twitter-->
           <a href="https://twitter.com/ajay272191" title="Twitter" target="_blank">
             <img src="assets/img/icons/twitter.svg" alt="Twitter">
@@ -76,9 +76,9 @@
         </div>
         <nav>
           <!-- Telegram -->
-          <a href="https://t.me/softdev_ajay" title="Connect on Telegram">
+          <!-- <a href="https://t.me/softdev_ajay" title="Connect on Telegram">
             <img src="./assets/img/icons/telegram.svg" alt="Telegram">
-          </a>
+          </a> -->
           <!-- Mail-->
           <a href="mailto:ajayrmavs33236@gmail.com?subject=HiAjay" title="Email">
             <img src="./assets/img/icons/email.svg" alt="Email">
@@ -114,5 +114,41 @@
     </footer> -->
     <script src="./assets/js/typed.js/dist/typed.min.js" charset="utf-8"></script>
     <script src="./assets/js/index.js" charset="utf-8"></script>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?78433';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+          "enabled":true,
+          "chatButtonSetting":{
+          "backgroundColor":"#9ad2e5",
+          "ctaText":"Ajay",
+          "borderRadius":"5",
+          "marginLeft":"90",
+          "marginBottom":"20",
+          "marginRight":"0",
+          "position":"left",
+          },
+          "brandSetting":{
+          "brandName":"Ajay",
+          "brandSubTitle":"Typically replies within 2 Hours",
+          "brandImg":"http://ajays.tech/assets/img/icons/ajay_img.svg",
+          "welcomeText":"Hi there!\nHow can I help you?",
+          "messageText":"Hello, Ajay!",
+          "backgroundColor":"#9ad2e5",
+          "ctaText":"Start Chat",
+          "borderRadius":"10",
+          "autoShow":false,
+          "phoneNumber":"919161152065"
+          }
+        };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
   </body>
 </html>
