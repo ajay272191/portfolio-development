@@ -2,10 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Softdev Ajay</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ajay's Portfolio</title>
     <link rel="icon" href="./assets/img/icons/ajay_img.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/project.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+
   </head>
   <body>
     <section id="content_section">
@@ -16,53 +18,72 @@
           <a href="contact.html" title="Contact Information">CONTACT</a>
         </p>
         <nav>
-          <!-- Github_link -->
-          <!-- <a href="https://github.com/ajay272191" title="Github">
-            <img src="./assets/img/icons/github.svg" alt="Github Link">
-          </a> -->
-          <!-- LinkedIn -->
           <a href="https://www.linkedin.com/in/ajay272191/" title="LinkedIn" target="_blank">
             <img src="./assets/img/icons/linkedin.svg" alt="LinkedIn">
           </a>
-          <!-- instagram -->
           <a href="https://www.instagram.com/softdev_ajay/" title="Instagram" target="_blank">
             <img src="./assets/img/icons/instagram.svg" alt="Instagram">
           </a>
-          <!-- stackover flow -->
-          <!-- <a href="https://stackoverflow.com/users/7845659/ajay-kumar" title="Stackoverflow" target="_blank">
-            <img src="./assets/img/icons/stack_overflow.svg" alt="stackoverflow">
-          </a> -->
-          <!-- twitter-->
           <a href="https://twitter.com/ajay272191" title="Twitter" target="_blank">
             <img src="assets/img/icons/twitter.svg" alt="Twitter">
           </a>
-          <!-- hashnode -->
           <a href="https://hashnode.com/@softdev-ajay" title="Hashnode Blog">
             <img src="./assets/img/icons/hashnode.svg" alt="Hashnode">
           </a>
         </nav>
       </div>
       <div class="main_content">
-        <div class="info_section">
-          <div class="name">
-            <h1>Ajay</h1>
-            <h1>Kumar</h1>
+        <div class="work_info">
+          <!-- <h2>Projects</h2> -->
+          <div class="projects">
+            <div class="description popup_page" title="Click to Expand">
+              <img src="assets/img/projects/dental_project.png" alt="Portfolio">
+              <a href="https://suryadentalcare.netlify.app/" title="Click to Open"><h4>Dental Custom Website</h4></a>
+            </div>
+            <div class="description popup_page" title="Click to Expand">
+              <img src="./assets/img/projects/up_and_away.png" alt="Up And Away">
+              <a href="./travel/index.html" target="_blank" title="Click to Open"> <h4>Travelling landing page</h4> </a>
+            </div>
+            <div class="description popup_page" title="Click to Expand">
+              <img src="assets/img/projects/portfolio_2.png" alt="Portfolio">
+                <a href="https://ajaykrportfolio.now.sh/" target="_blank" title="Click to Open"> <h4>Developer Portfolio Website</h4> </a>
+            </div>
           </div>
-          <div class="description">
-             <span id="writing_text"><span>
+          <div class="projects project_page2">
+            <div class="description popup_page" title="Click to Expand">
+              <img src="assets/img/projects/portfolio_1.png" alt="Portfolio">
+              <h4>Developer Portfolio Website</h4>
+            </div>
+            <div class="description popup_page" title="Click to Expand">
+                <img src="./assets/img/projects/fake_quiz_app.png" alt="Fake Quiz App">
+                <h4>Fake Quiz Web App</h4>
+            </div>
           </div>
+          <button type="button" name="button" onclick="show_form()">Request a Project</button>
+          <iframe id="request_form" src="https://docs.google.com/forms/d/e/1FAIpQLSf_0QPKWbpCh_sFjAsvt4z87Y1jmbwUMLiBvlaxP5j63denaA/viewform?embedded=true"
+          frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <!-- <h5 id="more_projects" onClick="show_projects(this.id)" >Show all Projects</h5>
+          <h5 id="hide_projects" onClick="hide_projects(this.id)" >Show less Projects</h5> -->
 
-          <div class="button_section">
-            <!-- <button type="button" name="contact">Contact</button>
-            <button type="button" name="Project">About</button> -->
-            <!-- <a href="services.html" class="home_button">Services</a> -->
-            <a href="meeting_scheduler.html" class="home_button">Schedule Meeting</a>
-            <a href="project.html" class="home_button">Projects</a>
+          <!-- blog section -->
+          <!-- <h2>Blogs</h2>
+          <div class="blogs">
+            <div class="description popup_page">
+              <img src="./assets/img/blogs/blog.png" alt="">
+              <h4>Coming soon ...</h4>
+            </div>
+            <div class="description popup_page">
+              <img src="./assets/img/blogs/block_scope_javascript.png" alt="Block Scope">
+              <a href="https://ajayk.live/block-scope-in-javascript" target="_blank"> <h4>Block Scope in JavaScript</h4> </a>
+            </div>
+            <div class="description popup_page">
+              <img src="./assets/img/blogs/blog.png" alt="">
+              <h4>Comminng soon ....</h4>
+            </div>
           </div>
-        </div>
-        <div class="img_section">
-          <!-- ajay's image -->
-          <img src="./assets/img/icons/ajay_img.svg" alt="Softdev image">
+          <h5 id="show_blogs" onClick="show_blogs(this.id)"> Show more blogs</h5>
+          <h5 id="hide_blogs" onClick="hide_blogs(this.id)" >Show less blogs</h5> -->
+
         </div>
       </div>
       <div class="right_nav">
@@ -71,7 +92,6 @@
           <img src="./assets/img/icons/home.svg" alt="Softdev Ajay's Home">
         </a>
         <div class="ajays_name">
-          <!-- <p class="navbar_text">Softdev Ajay</p> -->
           <a href="meeting_scheduler.html" class="home_button">Schedule Meeting</a>
         </div>
         <nav>
@@ -95,7 +115,7 @@
           <a href="https://www.upwork.com/freelancers/~013cf9768abeef2e22" title="Upwork" target="_blank">
             <img src="./assets/img/icons/upwork.svg" alt="Upwork">
           </a>
-          <!-- hacker rank -->
+          <!-- hackerrank -->
           <a href="https://www.hackerrank.com/ajayr272191" title="Hackerrank" target="_blank">
             <img src="./assets/img/icons/hackerrank.svg" alt="Hackerrank">
           </a>
@@ -114,41 +134,6 @@
     </footer> -->
     <script src="./assets/js/typed.js/dist/typed.min.js" charset="utf-8"></script>
     <script src="./assets/js/index.js" charset="utf-8"></script>
-    <script>
-        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?78433';
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = url;
-        var options = {
-          "enabled":true,
-          "chatButtonSetting":{
-          "backgroundColor":"#9ad2e5",
-          "ctaText":"Ajay",
-          "borderRadius":"5",
-          "marginLeft":"150",
-          "marginBottom":"25",
-          "marginRight":"0",
-          "position":"left",
-          },
-          "brandSetting":{
-          "brandName":"Ajay",
-          "brandSubTitle":"Typically replies within 2 Hours",
-          "brandImg":"http://ajays.tech/assets/img/icons/ajay_img.svg",
-          "welcomeText":"Hi there!\nHow can I help you?",
-          "messageText":"Hello, Ajay!",
-          "backgroundColor":"#9ad2e5",
-          "ctaText":"Start Chat",
-          "borderRadius":"10",
-          "autoShow":false,
-          "phoneNumber":"919161152065"
-          }
-        };
-        s.onload = function() {
-            CreateWhatsappChatWidget(options);
-        };
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-    </script>
+    <script src="./assets/js/portfolio.js" charset="utf-8"></script>
   </body>
 </html>

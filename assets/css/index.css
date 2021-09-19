@@ -7,7 +7,7 @@
 }
 body{
   margin: 0px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0px;
   font-family: sans-serif;
   background-color: var(--custom-white);
@@ -82,7 +82,10 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
 
 .left_nav p a{
   text-decoration: none;
-  color: var(--custom-blue);
+  /* color: var(--custom-blue); */
+  background: -webkit-linear-gradient(#000, var(--custom-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   writing-mode: vertical-lr;
   padding: 5px 0;
   font-size: initial;
@@ -152,24 +155,28 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 33%
   font-family: sans-serif;
 } */
 .name h1{
-  /* font-family: sans-serif; */
   font-size: 100px;
   margin: 0;
-  color: var(--custom-blue);
+  background: -webkit-linear-gradient(#000, var(--custom-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .name h1:first-child{
   margin-top: 10%;
-  margin-left: 10%;
+  padding-left: 8%;
 }
 .name h1:last-child{
-  margin-left: 13%;
+  padding-left: 11%;
 }
 #writing_text{
   color: #058798;
-  margin-left: 13%;
+  padding-left: 11%;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .button_section{
-  margin-left: 13%;
+  padding-left: 11%;
   margin-top: 20px;
 }
 .button_section .home_button{
@@ -232,19 +239,17 @@ a img{
 
 /* responsive  section */
 @media (max-width: 600px) {
-  body {
-    /* background-color: red; */
-  }
+
   .info_section .name h1{
-    margin-left: 20px;
+    padding-left: 20px;
     font-size: 50px;
   }
   .info_section .name h1:first-child{
     margin-top: 80px;
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .info_section .name h1:last-child{
-    /* margin-left: 7; */
+    padding-left: 7%
   }
   .left_nav  .navbar_text{
     display: flex;
@@ -259,15 +264,18 @@ a img{
     left: 0px;
     padding: 0 10px;
   }
+  .info_section{
+    padding-left: 8%;
+    margin-top: 120px;
+  }
   .info_section .description{
     margin-top: 15px;
     padding-left: 15px;
   }
   #writing_text{
     margin: 10px;
-    font-size: 15px;
+    font-size: large;
 
-    /* margin-left: 10%; */
   }
   .info_section .button_section .home_button{
     padding: 10px 15px;
@@ -290,7 +298,6 @@ a img{
     width: 15%;
   }
   .left_nav nav{
-    /* bottom: 160px; */
     width: 12%;
   }
   .right_nav nav{
@@ -306,5 +313,47 @@ a img{
   }
   .work_info{
     padding-bottom: 25px;
+  }
+  .left_nav nav{
+    bottom: 30px;
+  }
+  #portfolio_desc{
+    padding-left: 11%;
+    width: 90%;
+  }
+  .stack_and_area{
+    display: block;
+  }
+  #portfolio_desc div img{
+    margin-left: 4%;
+    margin-top: 50px;
+  }
+  .tech_stacks, .working_areas{
+    width: 90%;
+    margin: 20px 0;
+  }
+  .bottom_space{
+    margin-top: 10px;
+    height: 5px;
+  }
+  .whatsapp_chat_widget{
+    position: inherit;
+  }
+  .work_info{
+    margin-top: 75px;
+    padding: 0 5%;
+  }
+  .projects{
+    display: grid;
+  }
+  .description {
+    width: fit-content;
+    padding: 0;
+    margin: 0 0 25px;
+  }
+  .work_info button{
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
   }
 }
