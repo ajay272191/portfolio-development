@@ -240,6 +240,9 @@ a img{
 /* responsive  section */
 @media (max-width: 600px) {
 
+  #content_section{
+    overflow-x: hidden;
+  }
   .info_section .name h1{
     padding-left: 20px;
     font-size: 50px;
@@ -249,57 +252,66 @@ a img{
     padding-left: 20px;
   }
   .info_section .name h1:last-child{
-    padding-left: 7%
+    padding-left: 15%
   }
-  .left_nav  .navbar_text{
+  .left_nav .navbar_text{
     display: flex;
-    width: 99vw;
-    top: 0px;
     margin-top: 25px;
-    display: flex;
-    left: 12%;
+    top: 0px;
+    justify-content: center;
+    width: 100vw;
+    margin-left: 85vw;
+    padding-left: 5%;
   }
+
+  .left_nav .navbar_text{
+    /* display: flex; */
+    /* left: 5%; */
+  }
+
   .left_nav p a{
     writing-mode: inherit;
     left: 0px;
     padding: 0 10px;
   }
+  .left_nav p a:first-child{
+    margin-left: 2%;
+  }
   .info_section{
-    padding-left: 8%;
     margin-top: 120px;
   }
   .info_section .description{
     margin-top: 15px;
-    padding-left: 15px;
+    width: 100vw;
   }
   #writing_text{
     margin: 10px;
     font-size: large;
-
+    padding-left: 2%;
   }
   .info_section .button_section .home_button{
     padding: 10px 15px;
   }
   .button_section{
     margin-top: 30px;
-    margin-left: 5%;
+    padding-left: 5%;
+    margin-left: 0;
   }
   .img_section img{
     position: absolute;
     width: 80%;
     right: 0px;
   }
-  .left_nav .navbar_text{
-    display: flex;
-    justify-content: center;
-    left: 5%;
-  }
+
   .left_nav{
-    width: 15%;
+    width: 12%;
   }
   .left_nav nav{
     width: 12%;
+    bottom: 0px;
   }
+  /* .left_nav nav{
+  } */
   .right_nav nav{
     width: inherit;
   }
@@ -314,12 +326,10 @@ a img{
   .work_info{
     padding-bottom: 25px;
   }
-  .left_nav nav{
-    bottom: 30px;
-  }
+
   #portfolio_desc{
     padding-left: 11%;
-    width: 90%;
+    width: 100%;
   }
   .stack_and_area{
     display: block;
